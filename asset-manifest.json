@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tamil-Nadu-Heritage-Navigator/static/css/main.c0e5cb16.css",
+    "main.js": "/Tamil-Nadu-Heritage-Navigator/static/js/main.667b1453.js",
+    "static/js/453.8ab44547.chunk.js": "/Tamil-Nadu-Heritage-Navigator/static/js/453.8ab44547.chunk.js",
+    "index.html": "/Tamil-Nadu-Heritage-Navigator/index.html",
+    "main.c0e5cb16.css.map": "/Tamil-Nadu-Heritage-Navigator/static/css/main.c0e5cb16.css.map",
+    "main.667b1453.js.map": "/Tamil-Nadu-Heritage-Navigator/static/js/main.667b1453.js.map",
+    "453.8ab44547.chunk.js.map": "/Tamil-Nadu-Heritage-Navigator/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0e5cb16.css",
+    "static/js/main.667b1453.js"
+  ]
+}
