@@ -8,7 +8,7 @@ function App() {
 
     return (
         <div className="app-container">
-            <h1>Tamil Nadu Heritage Navigator</h1>
+            <h1 style={{ textAlign: "center" }}>TamilNadu Heritage Navigator</h1>
             <Chatbot />
             <VoiceRecorder setAudioResponse={setAudioResponse} />
             <AudioPlayer audioSrc={audioResponse} />
