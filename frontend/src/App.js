@@ -8,7 +8,7 @@ function App() {
 
     return (
         <div className="app-container">
-            <h1 style={{ fontFamily: 'Arial', fontSize: 36, fontWeight: 700 }}>Tamil Nadu Heritage Navigator</h1>
+            <h1>Tamil Nadu Heritage Navigator</h1>
             <Chatbot />
             <VoiceRecorder setAudioResponse={setAudioResponse} />
             <AudioPlayer audioSrc={audioResponse} />
