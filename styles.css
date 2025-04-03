@@ -13,15 +13,23 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    background-image: url('/images/tamil-heritage-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--text-color);
     line-height: 1.6;
+    min-height: 100vh;
 }
 
 .container {
     max-width: 900px;
     margin: 2rem auto;
     padding: 0 1rem;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: var(--border-radius);
 }
 
 .app-header {
