@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+langchain
+sentence-transformers
+chromadb
+transformers
+torch
+whisper-timestamped
+pydub
