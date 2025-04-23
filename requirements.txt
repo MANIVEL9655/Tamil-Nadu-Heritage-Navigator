@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+sentence-transformers
+llama-cpp-python
+chromadb
+pypdf
+python-multipart
+gtts
+whisper
