@@ -24,27 +24,35 @@ function Home() {
 
             <section className="features section">
                 <div className="container">
-                    <h2 className="heading">Key Features</h2>
+                    <h2 className="heading">Famous Heritage Places</h2>
                     <div className="features-grid">
                         <div className="feature-card card">
-                            <div className="feature-icon">🏛️</div>
-                            <h3>Heritage Sites</h3>
-                            <p>Explore detailed information about Tamil Nadu's UNESCO World Heritage sites and ancient monuments.</p>
+                            <div className="feature-icon">
+                                <img src="/images/feature1.jpg" alt="Heritage Sites" />
+                            </div>
+                            <h3>Brihadeeswara Temple</h3>
+                            <p>Brihadeeswara Temple, located in Thanjavur, Tamil Nadu, is a magnificent 11th-century Chola architectural marvel dedicated to Lord Shiva.</p>
                         </div>
                         <div className="feature-card card">
-                            <div className="feature-icon">🗣️</div>
-                            <h3>Bilingual Support</h3>
-                            <p>Access information in both English and Tamil languages for a better understanding of our heritage.</p>
+                            <div className="feature-icon">
+                                <img src="/images/feature2.jpg" alt="Bilingual Support" />
+                            </div>
+                            <h3>Mamallapuram Shore Temple</h3>
+                            <p>The Mamallapuram Shore Temple is an ancient granite temple complex built in the 8th century by the Pallava dynasty, showcasing remarkable Dravidian architecture by the sea.</p>
                         </div>
                         <div className="feature-card card">
-                            <div className="feature-icon">🤖</div>
-                            <h3>AI Chatbot</h3>
-                            <p>Interact with our intelligent chatbot to get instant answers about Tamil Nadu's cultural heritage.</p>
+                            <div className="feature-icon">
+                                <img src="/images/feature3.jpg" alt="AI Chatbot" />
+                            </div>
+                            <h3>Gangaikonda Cholapuram</h3>
+                            <p>Gangaikonda Cholapuram isbuilt by Rajendra Chola I to commemorate his victorious march to the Ganges and serve as the capital of the Chola dynasty.</p>
                         </div>
                         <div className="feature-card card">
-                            <div className="feature-icon">🎯</div>
-                            <h3>Interactive Maps</h3>
-                            <p>Navigate through heritage sites with our interactive maps and location-based information.</p>
+                            <div className="feature-icon">
+                                <img src="/images/feature4.jpg" alt="Interactive Maps" />
+                            </div>
+                            <h3>Sri Meenakshi Temple</h3>
+                            <p>Sri Meenakshi Temple is a historic and architecturally magnificent Hindu temple located in Madurai, Tamil Nadu.</p>
                         </div>
                     </div>
                 </div>
