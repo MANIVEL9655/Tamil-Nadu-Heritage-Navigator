@@ -3,7 +3,7 @@
 }
 
 .hero {
-    background: url('C:\Users\ADMIN\Desktop\Tamil-Nadu-Heritage-Navigator\frontend\public\images\banner.jpg') center/cover no-repeat;
+    background: url('../images/banner.jpg') center/cover no-repeat;
     position: relative;
     height: 80vh;
     display: flex;
