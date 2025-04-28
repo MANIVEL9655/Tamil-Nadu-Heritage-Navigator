@@ -3,7 +3,7 @@
 }
 
 .hero {
-    background: url('../images/banner.jpg') center/cover no-repeat;
+    background: url('../components/images/banner.jpg') center/cover no-repeat;
     position: relative;
     height: 80vh;
     display: flex;

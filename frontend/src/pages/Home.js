@@ -1,6 +1,14 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Home.css';
+import feature1 from '../components/images/feature1.jpg';
+import feature2 from '../components/images/feature2.jpg';
+import feature3 from '../components/images/feature3.jpg';
+import feature4 from '../components/images/feature4.jpg';
+import feature5 from '../components/images/feature5.jpg';
+import feature6 from '../components/images/feature6.jpg';
+import feature7 from '../components/images/feature7.jpg';
+import feature8 from '../components/images/feature8.jpg';
 
 function Home() {
     const navigate = useNavigate();
@@ -42,56 +50,56 @@ function Home() {
                         <div className="features-grid" ref={featuresGridRef}>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature1.jpg" alt="Heritage Sites" />
+                                    <img src={feature1} alt="Heritage Sites" />
                                 </div>
                                 <h3>Brihadeeswara Temple</h3>
                                 <p>Brihadeeswara Temple, located in Thanjavur, Tamil Nadu, is a magnificent 11th-century Chola architectural marvel dedicated to Lord Shiva.</p>
                             </div>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature2.jpg" alt="Bilingual Support" />
+                                    <img src={feature2} alt="Bilingual Support" />
                                 </div>
                                 <h3>Mamallapuram Shore Temple</h3>
                                 <p>The Mamallapuram Shore Temple is an ancient granite temple complex built in the 8th century by the Pallava dynasty, showcasing remarkable Dravidian architecture by the sea.</p>
                             </div>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature3.jpg" alt="AI Chatbot" />
+                                    <img src={feature3} alt="AI Chatbot" />
                                 </div>
                                 <h3>Gangaikonda Cholapuram</h3>
                                 <p>Gangaikonda Cholapuram is built by Rajendra Chola I to commemorate his victorious march to the Ganges and serve as the capital of the Chola dynasty.</p>
                             </div>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature4.jpg" alt="Interactive Maps" />
+                                    <img src={feature4} alt="Interactive Maps" />
                                 </div>
                                 <h3>Sri Meenakshi Temple</h3>
                                 <p>Sri Meenakshi Temple is a historic and architecturally magnificent Hindu temple located in Madurai, Tamil Nadu.</p>
                             </div>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature5.jpg" alt="Airavatesvara Temple" />
+                                    <img src={feature5} alt="Airavatesvara Temple" />
                                 </div>
                                 <h3>Airavatesvara Temple</h3>
                                 <p>Airavatesvara Temple in Darasuram is a UNESCO World Heritage Site known for its intricate stone carvings and architectural brilliance from the Chola period.</p>
                             </div>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature6.jpg" alt="Ramanathaswamy Temple" />
+                                    <img src={feature6} alt="Ramanathaswamy Temple" />
                                 </div>
                                 <h3>Ramanathaswamy Temple</h3>
                                 <p>Ramanathaswamy Temple in Rameswaram is one of the twelve Jyotirlinga temples, famous for its magnificent corridors and sacred significance.</p>
                             </div>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature7.jpg" alt="Thiruvannamalai Temple" />
+                                    <img src={feature7} alt="Thiruvannamalai Temple" />
                                 </div>
                                 <h3>Thiruvannamalai Temple</h3>
                                 <p>Arunachaleswarar Temple in Thiruvannamalai is one of the largest temple complexes in India, dedicated to Lord Shiva and known for its grand architecture.</p>
                             </div>
                             <div className="feature-card card">
                                 <div className="feature-icon">
-                                    <img src="/images/feature8.jpg" alt="Kailasanathar Temple" />
+                                    <img src={feature8} alt="Kailasanathar Temple" />
                                 </div>
                                 <h3>Kailasanathar Temple</h3>
                                 <p>Kailasanathar Temple in Kanchipuram is one of the oldest temples in South India, showcasing early Dravidian architecture from the Pallava period.</p>
