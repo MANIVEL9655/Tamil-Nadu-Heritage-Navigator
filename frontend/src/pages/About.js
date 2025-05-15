@@ -36,7 +36,7 @@ function About() {
                 </div>
             </section>
 
-            <section className="features section">
+            {/* <section className="features section">
                 <div className="container">
                     <h2 className="heading">Key Features</h2>
                     <div className="features-list">
@@ -95,7 +95,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 }
